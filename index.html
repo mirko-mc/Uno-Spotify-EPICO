@@ -47,7 +47,7 @@
                         aria-label="Search" aria-describedby="basic-addon2" />
                       <div class="input-group-append" style="margin-bottom: 4%">
                         <button class="btn btn-outline-secondary btn-sm" type="button" id="button-search"
-                          onclick="search()">
+                          onclick="search(document.getElementById('button-search').textContent)">
                           GO
                         </button>
                       </div>
@@ -176,8 +176,7 @@
     integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
   </script>
 
-  <script>
-  </script>
+  <script src="./script.js"></script>
 </body>
 
 </html>
