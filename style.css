@@ -229,3 +229,10 @@ ul {
 .mainPage img {
   width: 200px;
 }
+
+#eminemSection,
+#metallicaSection,
+#queenSection {
+  overflow: hidden;
+  flex-wrap: nowrap;
+}
